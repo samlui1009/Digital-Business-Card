@@ -3,11 +3,14 @@
     width: 500px;
     height: 100%;
     border-radius: 10px;
+    background-color: var(--card-color);
 }
 
 .mid-section {
     background-color: #15161D;
+    background-color: var(--card-color);
     color: #EDEDED;
+    color: var(--primary-text-color);
 }
 
 .linkedin {

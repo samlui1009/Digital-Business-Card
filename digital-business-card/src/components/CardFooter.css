@@ -2,6 +2,7 @@
     display: block;
     width: 100%;
     background-color: black;
+    background-color: var(--footer-color);
     color: #ededed;
     text-align: center;
     border-bottom-right-radius: 10px;
@@ -27,4 +28,5 @@
     opacity: 1;
     transition: all .6s ease;
     -webkit-transition: all .6s ease;
+    cursor: pointer;
 }
