@@ -1,18 +1,30 @@
 .footer-nav {
+    display: block;
     width: 100%;
     background-color: black;
     color: #ededed;
-    display: block;
     text-align: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .button-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .buttons {
+    margin: 30px;
     border-radius: 10px;
     width: 50px;
-    height: 55px;
+    height: 50px;
+    font-size: 30px;
+    opacity: 0.75;
+    border: none;
+}
+
+.buttons:hover {
+    opacity: 1;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
 }
