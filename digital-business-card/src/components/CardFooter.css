@@ -1,0 +1,18 @@
+.footer-nav {
+    width: 100%;
+    background-color: black;
+    color: #ededed;
+    display: block;
+    text-align: center;
+}
+
+.button-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    border-radius: 10px;
+    width: 50px;
+    height: 55px;
+}
