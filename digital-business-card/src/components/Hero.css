@@ -1,7 +1,11 @@
 .profile-img {
+    display: block;
     max-width: 100%;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
+/* Image treated as inline element, like text, so it behaves
+like a character */
 
 .personal-info {
     text-align: center;
