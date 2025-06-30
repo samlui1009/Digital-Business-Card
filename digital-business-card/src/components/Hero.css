@@ -12,6 +12,5 @@ like a character */
 }
 
 .tagline {
-    color: #E8C9C9;
     color: var(--tagline-color);
 }

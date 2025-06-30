@@ -1,9 +1,8 @@
 .footer-nav {
     display: block;
     width: 100%;
-    background-color: black;
     background-color: var(--footer-color);
-    color: #ededed;
+    color: var(--primary-text-color);
     text-align: center;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;

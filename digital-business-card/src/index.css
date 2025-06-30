@@ -1,8 +1,15 @@
 :root {
-    --light-background-color: #FAFAFA;
+    --card-color: #1d1e23;
+    --background-color: #262935;      
+    --primary-text-color: #EDEDED;
+    --tagline-color: #E8C9C9;
+    --footer-color: #2B2B2B;
+}
+
+body[data-theme="light"] {
+    --background-color: #dcd1d1fa;
     --card-color: #EFEFEF;
-    --primary-text-color: #333333;
+    --primary-text-color: #130808;
     --tagline-color: #ae7d7d;
-    --toggle-bg: yellow;
     --footer-color: #BDBDBD;
 }

@@ -1,0 +1,55 @@
+/* .toggle-container {
+    top: 2rem;
+    text-align: center;
+}
+
+.toggle {
+    visibility: hidden;
+    position: absolute;
+}
+
+.toggle-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.slider {
+    position: relative;
+    border-radius: 30px;
+    width: 60px;
+    height: 50px;
+    background-color: rgb(217, 173, 112);
+    transition: background-color 0.3s ease;
+}
+
+.icon {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 0.8em;
+    transition: transform 0.3s ease;
+    z-index: 2;
+    pointer-events: none; /* prevent dragging or selection */
+}
+
+/* Move knob when checked */
+.toggle:checked + .toggle-label .icon {
+    transform: translateX(30px);
+  }
+  
+  /* Optional: Change track color when toggled */
+  .toggle:checked + .toggle-label .slider {
+    background-color: #555;
+  } */

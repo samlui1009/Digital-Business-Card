@@ -1,5 +1,4 @@
 .card-elem {
-    background-color: azure;
     width: 500px;
     height: 100%;
     border-radius: 10px;
@@ -7,13 +6,12 @@
 }
 
 .mid-section {
-    background-color: #15161D;
     background-color: var(--card-color);
-    color: #EDEDED;
     color: var(--primary-text-color);
 }
 
 .linkedin {
+    font-size: 1.25rem;
     text-align: center;
     padding: 50px;
 }

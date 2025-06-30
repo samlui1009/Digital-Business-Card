@@ -3,7 +3,6 @@
 body {
     display: flex;
     justify-content: center;
-    background-color: #1F2027;
     font-family: "Red Hat Text", sans-serif;
-    background-color: var(--light-background-color);
+    background-color: var(--background-color);
 }
